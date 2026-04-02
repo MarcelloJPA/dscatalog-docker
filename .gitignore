@@ -1,0 +1,16 @@
+# Maven
+backend/target/
+backend/bin/
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Imagens soltas
+*.png
+
+# Sistema
+.DS_Store
+Thumbs.db
