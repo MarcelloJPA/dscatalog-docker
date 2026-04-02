@@ -1,13 +1,13 @@
-# ?? DSCatalog ó Dockerized Spring Boot API
+#  DSCatalog ‚Äî Dockerized Spring Boot API
 
 API REST dockerizada com multi-stage build, Alpine, cache de layers e Buildx multi-plataforma.
 
-## ?? ReduÁ„o de tamanho da imagem
+##  Redu√ß√£o de tamanho da imagem
 
-| Vers„o | TÈcnica | Tamanho |
+| Vers√£o | T√©cnica | Tamanho |
 |--------|---------|---------|
-| v1 | Dockerfile b·sico | 974 MB |
+| v1 | Dockerfile b√°sico | 974 MB |
 | v2 | Multi-stage build | 498 MB (-49%) |
 | v3 | Multi-stage + Alpine | 381 MB (-61%) |
-| v4 | Cache de layers | 381 MB + 5x mais r·pido |
+| v4 | Cache de layers | 381 MB + 5x mais r√°pido |
 | v5 | Buildx multi-plataforma | 381 MB (amd64 + arm64) |
